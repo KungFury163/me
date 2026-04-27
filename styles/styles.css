@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "p5hatty";
+  src: url("../assets/font/p5hatty-1.ttf");
+}
+
+@font-face {
+  font-family: "p5-menu";
+  src: url("../assets/font/Persona5MenuFontPrototype-Regular.ttf");
+}
+
 * {
   font-family: "p5hatty", sans-serif;
   font-size: 30pt;
@@ -82,7 +92,7 @@ body {
 .main-title {
   margin-top: 20px;
   text-align: center;
-  font-family: 'Persona 5 Menu Font Prototype', sans-serif;
+  font-family: 'p5-menu', sans-serif;
   font-size: 3em;
   background-color: rgba(97, 97, 97, 0.286);
   backdrop-filter: blur(3px);
