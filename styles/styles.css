@@ -1,0 +1,92 @@
+* {
+  font-family: "p5hatty", sans-serif;
+  font-size: 30pt;
+  font-weight: 100;
+  color: white;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  background-image: url("/assets/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-position: center;
+  /* min-height: 5000px; */
+}
+
+/* Page header */
+.container-header {
+  margin-top: 20px;
+  position: relative;
+  height: 100px;
+  background-color: rgba(128, 128, 128, 0.743);
+  /* filter: blur(5px); */
+  border: solid 10px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.top-avatar-box {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar-link {
+  display: hidden;
+  /* margin-top: 500px; */
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.top-links-ul {
+  display: flex;
+  align-items: center;
+  gap: clamp(10px, 50px, 30px);
+  margin: 0 auto;
+}
+
+.top-links-item {
+  position: relative;
+  list-style: none;
+}
+
+.list-link {
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.list-link:hover {
+  color: red;
+  
+}
+
+.container-title {
+  max-width: 900px;
+}
+
+.main-title {
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Persona 5 Menu Font Prototype', sans-serif;
+  font-size: 3em;
+  background-color: rgba(97, 97, 97, 0.286);
+  backdrop-filter: blur(3px);
+  border-radius: 15px;
+  clip-path: polygon(0 0, 85% 0, 100% 10%, 100% 100%, 0 100%);
+  border: solid 1px #ffffff37;
+}
